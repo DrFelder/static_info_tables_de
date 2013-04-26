@@ -5,6 +5,9 @@ $tempTablesDef = array (
 	'static_countries' => array (
 		'cn_short_en' => 'cn_short_de',
 	),
+	'static_country_zones' => array (
+		'zn_name_en' => 'zn_name_de',
+	),
 	'static_currencies' => array (
 		'cu_name_en' => 'cu_name_de',
 		'cu_sub_name_en' => 'cu_sub_name_de',
@@ -15,6 +18,9 @@ $tempTablesDef = array (
 	'static_territories' => array (
 		'tr_name_en' => 'tr_name_de',
 	),
+	'static_taxes' => array (
+		'tx_name_en' => 'tx_name_de',
+	),
 );
 
 foreach ($tempTablesDef as $tempTable => $tempFieldDef) {
@@ -22,7 +28,7 @@ foreach ($tempTablesDef as $tempTable => $tempFieldDef) {
 	foreach ($tempFieldDef as $tempSourceField => $tempDestField) {
 		$tempColumns = array();
 		$tempColumns[$tempDestField] = $TCA[$tempTable]['columns'][$tempSourceField];
-		$tempColumns[$tempDestField]['label'] = 'LLL:EXT:'.$_EXTKEY.'/locallang_db.php:'.$tempTable.'_item.'.$tempDestField;
+		$tempColumns[$tempDestField]['label'] = 'LLL:EXT:'.$_EXTKEY.'/locallang_db.xml:'.$tempTable.'_item.'.$tempDestField;
 		t3lib_extMgm::addTCAcolumns($tempTable, $tempColumns, 1);
 		t3lib_extMgm::addToAllTCAtypes($tempTable, $tempDestField, '', 'after:'.$tempSourceField);
 	}

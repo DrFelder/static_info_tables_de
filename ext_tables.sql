@@ -9,9 +9,18 @@ CREATE TABLE static_currencies (
 );
 
 CREATE TABLE static_languages (
-  lg_name_de varchar(30) DEFAULT '0' NOT NULL
+  lg_name_de varchar(50) DEFAULT '' NOT NULL
 );
 
 CREATE TABLE static_territories (
-  tr_name_de varchar(30) DEFAULT '0' NOT NULL
+  tr_name_de varchar(50) DEFAULT '' NOT NULL
 );
+
+CREATE TABLE static_taxes (
+  tx_name_de varchar(50) DEFAULT '' NOT NULL
+);
+
+CREATE TABLE static_country_zones (
+  zn_name_de varchar(50) DEFAULT '' NOT NULL
+);
+
