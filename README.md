@@ -1,16 +1,18 @@
 # TYPO3 Extension "static_info_tables_de"
 (de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.
 
-## Version 2.0.1
+## Version 2.0.2
 
 
 
 
 <table>
-	<tr><td>Version</td><td>2.0.1 stable</td></tr>
-	<tr><td>Release date</td><td>19. December 2006</td></tr>
+	<tr><td>Version</td><td>2.0.2 stable</td></tr>
+	<tr><td>Release date</td><td>20. June 2009</td></tr>
 	<tr><td>Author</td><td>Ren Fritz</td></tr>
-	<tr><td>Comment</td><td>Enable language fields for FE extensions.</td></tr>
+	<tr><td>Comment</td><td>Remove static_taxes where no translations have been.
+Fix Elfenbeinkste, add Serbien and Montenegro
+Translation vor Venice is Venedig.</td></tr>
 </table>
 
 ## !! Attention !!
