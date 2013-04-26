@@ -29,7 +29,7 @@ require_once (t3lib_extMgm::extPath('static_info_tables').'class.tx_staticinfota
 /**
  * Class for updating the db
  *
- * @author	 RenÃ© Fritz <r.fritz@colorcube.de>
+ * @author	 René Fritz <r.fritz@colorcube.de>
  */
 class ext_update  {
 

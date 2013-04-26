@@ -1,16 +1,16 @@
 # TYPO3 Extension "static_info_tables_de"
 (de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.
 
-## Version 2.0.0
+## Version 2.0.1
 
 
 
 
 <table>
-	<tr><td>Version</td><td>2.0.0 stable</td></tr>
-	<tr><td>Release date</td><td>21. June 2006</td></tr>
+	<tr><td>Version</td><td>2.0.1 stable</td></tr>
+	<tr><td>Release date</td><td>19. December 2006</td></tr>
 	<tr><td>Author</td><td>Ren Fritz</td></tr>
-	<tr><td>Comment</td><td>This version requires TYPO3 4.0.</td></tr>
+	<tr><td>Comment</td><td>Enable language fields for FE extensions.</td></tr>
 </table>
 
 ## !! Attention !!

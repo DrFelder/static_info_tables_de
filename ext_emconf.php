@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'description' => '(de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
 	'category' => 'misc',
 	'shy' => 0,
-	'version' => '2.0.0',
+	'version' => '2.0.1',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -27,7 +27,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'modify_tables' => 'static_countries,static_languages,static_currencies,static_territories',
 	'clearcacheonload' => 0,
 	'lockType' => '',
-	'author' => 'RenÃ¯Â¿Â½ Fritz',
+	'author' => 'RenÃ© Fritz',
 	'author_email' => 'r.fritz@colorcube.de',
 	'author_company' => 'Colorcube - digital media lab, www.colorcube.de',
 	'CGLcompliance' => NULL,
@@ -36,7 +36,7 @@ $EM_CONF[$_EXTKEY] = array (
 	array (
 		'depends' => 
 		array (
-			'static_info_tables' => '2.0.0-',
+			'static_info_tables' => '2.0.1-',
 			'php' => '4.1.0-',
 			'typo3' => '4.0-',
 		),
