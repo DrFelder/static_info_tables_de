@@ -1,16 +1,16 @@
 # TYPO3 Extension "static_info_tables_de"
 (de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.
 
-## Version 2.0.3
+## Version 2.1.0
 
 
 
 
 <table>
-	<tr><td>Version</td><td>2.0.3 stable</td></tr>
-	<tr><td>Release date</td><td>18. May 2011</td></tr>
+	<tr><td>Version</td><td>2.1.0 stable</td></tr>
+	<tr><td>Release date</td><td>01. March 2013</td></tr>
 	<tr><td>Author</td><td>Ren Fritz</td></tr>
-	<tr><td>Comment</td><td>replace Belarus by Weirussland</td></tr>
+	<tr><td>Comment</td><td>Added several translations that to keep up with static_info_tables 2.3.0. Extension is now available on forge - please use the bug tracker there!</td></tr>
 </table>
 
 ## !! Attention !!
