@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'description' => '(de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
 	'category' => 'misc',
 	'shy' => 0,
-	'version' => '2.1.0',
+	'version' => '2.1.1',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -37,8 +37,8 @@ $EM_CONF[$_EXTKEY] = array (
 		'depends' => 
 		array (
 			'static_info_tables' => '2.3.0-',
-			'php' => '4.1.0-0.0.0',
-			'typo3' => '4.0-0.0.0',
+			'typo3' => '4.3-0.0.0',
+			'php' => '5.2.0-0.0.0',
 		),
 		'conflicts' => 
 		array (
